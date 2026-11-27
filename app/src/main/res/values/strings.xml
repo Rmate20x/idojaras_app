@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Időjárás</string>
+    <string name="location_searching">Helyzet keresése...</string>
+    <string name="location_format">Helyzet: %1$s, %2$s</string>
+    <string name="location_not_found">Helyzet: Nem található</string>
+    <string name="temperature_format">%1$.1f °C</string>
+    <string name="wind_speed_format">%1$.1f km/h</string>
+    <string name="humidity_format">%1$d %%</string>
+    <string name="pressure_format">%1$d hPa</string>
+    <string name="refresh_button">Adatok frissítése</string>
+
+    <string name="label_wind">Szélsebesség</string>
+    <string name="label_humidity">Páratartalom</string>
+    <string name="label_pressure">Légnyomás</string>
+</resources>

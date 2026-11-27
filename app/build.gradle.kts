@@ -37,7 +37,13 @@ dependencies {
     implementation(libs.appcompat)
     implementation(libs.constraintlayout)
     implementation(libs.material)
-    
+    implementation(libs.recyclerview)
+    implementation(libs.swiperefreshlayout)
+
+    // Helyi adatbázis (Room / SQLite) a kedvenc városokhoz
+    implementation(libs.room.runtime)
+    annotationProcessor(libs.room.compiler)
+
     // Webkérések (Volley) és Helymeghatározás (Play Services)
     implementation("com.android.volley:volley:1.2.1")
     implementation("com.google.android.gms:play-services-location:21.3.0")
